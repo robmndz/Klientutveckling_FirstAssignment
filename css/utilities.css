@@ -1,0 +1,101 @@
+/* Text colors */
+.first-text {
+   font-family: 'Fredoka One', cursive;
+   color: #3b372e;
+   font-size: 50px;
+   
+}
+
+.second-text {
+   font-family: 'Fredoka One', cursive;
+   color:#ffd152;
+   font-size: 90px;
+   line-height: 1;
+}
+
+.third-text {
+   font-family: 'Fredoka One', cursive;
+   color:#f7e4b1;
+   font-size: 35px;
+}
+
+.fourth-text {
+   font-family: 'Fredoka', sans-serif;
+   color:#fffaeb;
+   font-size: 20px;
+   line-height: 1.5;
+}
+
+.fifth-text {
+   font-family: 'Fredoka', sans-serif;
+   color:#fdfdfb;
+   font-size: 15px;
+   line-height: 1.5;
+}
+
+.rubrik-contents {
+   font-family: 'Fredoka One', cursive;
+   color:#ffd152;
+   font-size: 60px;
+   line-height: 1;
+}
+
+/* Buttons */
+.btn {
+   font-family: 'Fredoka', sans-serif;
+   cursor: pointer;
+   display: inline-block;
+   padding: 10px 25px;
+   background-color: #f7e4b1;
+   color:#000000;
+   border: none;
+   border-radius: 15px;
+   margin-top: 25px;
+}
+
+.btn-form {
+   font-family: 'Fredoka', sans-serif;
+   cursor: pointer;
+   display: inline-block;
+   padding: 10px 25px;
+   background-color: #6e6d6a;
+   color:#ffffff;
+   border: none;
+   border-radius: 15px;
+   margin-top: 5px;
+}
+
+.btn:hover {
+   opacity: 0.8;
+}
+
+.btn-form:hover {
+   opacity: 0.8;
+}
+
+
+h2 {
+   font-family: 'Fredoka', sans-serif;
+   margin-bottom: 0.5px;
+   color: #ffd152;
+   
+}
+
+.employees .flex-workers img {
+   height: 200px;
+   width: 200px;
+   border-radius: 75px;
+   margin-top: 15px;
+}
+
+.employees .flex-workers p {
+   margin-top: 0.2px;
+   margin-bottom: 0.8px;
+   color:#f7e4b1
+}
+
+
+
+
+
+   

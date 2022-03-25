@@ -1,0 +1,344 @@
+
+
+* {
+   box-sizing: border-box;
+   padding: 0px;
+   margin: 0px;
+}
+
+body {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   background: #fff;
+   color: #333;
+   line-height: 1.6;
+}
+
+ul {
+   list-style: none;
+   font-family: 'Roboto', sans-serif;
+}
+
+a {
+   color: #333;
+   text-decoration: none;
+}
+
+.logo {
+   font-family: 'Fredoka One', cursive;
+   color: black;
+}
+
+p {
+   margin: 10px 0;
+}
+
+img {
+   width: 100%;
+}
+
+/* Navbar */
+.navbar {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: rgb(204, 199, 199);
+   color: #333;
+   opacity: 0.9;
+   width: 100%;
+   height: 80px;
+   position: fixed;
+   top: 0px;
+   padding: 0 30px;
+}
+
+.navbar a {
+   color:rgb(22, 15, 15);
+   padding: 10px 20px;
+   margin: 0 5px;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.current {
+   background: #fcf8ec;
+   color: #181515;
+   border-radius: 15px;
+}
+
+.navbar ul {
+   display: flex;
+}
+
+/* Header */
+.entrance {
+   background: url('../img/pexels-scott-webb-1253791.jpg') no-repeat center center/cover;
+   height: 100vh;
+   position: relative;
+   color: #ffffff;
+}
+
+.entrance .content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 100%;
+   margin: 0 225px;
+   padding: 20px;
+}
+
+.entrance::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0,0,0,0.3);
+}
+
+.content * {
+   z-index: 10;
+}
+
+/* Footer */
+.footer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 100px;
+   background-color: #5a5959;
+}
+
+.footer p {
+   color: #b3b3b3;
+   font-size: 16px;
+   font-family: 'Fredoka', sans-serif;
+}
+
+/* About */
+.entrance-about {
+   background: url('../img/pexels-scott-webb-1253791.jpg') no-repeat center center/cover;
+   height: 100vh;
+   position: relative;
+   color: #ffffff;
+}
+
+.entrance-about::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0,0,0,0.3);
+}
+
+.history {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: left;
+   text-align: left;
+   height: 25%;
+   margin: 0px 25px;
+   padding: 0px;
+}
+
+.history-background {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-top: 200px;
+   padding: 30px;
+   line-height: 1.2;
+   max-width: 475px;
+   z-index: 10;
+}
+
+.history .history-background p {
+   margin-top: 25px;
+}
+
+.employees {
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   background: url('../img/pexels-dan-gold-1701535.jpg') no-repeat center center/cover;
+}
+
+.flex-workers {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   text-align: center;
+   height: 100%;
+   margin: 2px 10px;
+}
+
+.flex-workers div {
+   background: url('../img/pexels-darker-green.jpg') no-repeat center center/cover;
+   padding: 5px 5px;
+   margin: 10px 10px; 
+   border-radius: 100px;
+   width: 375px;
+   height: 400px;
+}
+
+.employees h1 {
+   margin-bottom: 25px;
+}
+
+.employees .flex-workers .description {
+   font-size: 12px;
+   
+}
+
+/* References */
+.container-page {
+   display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: center;
+	align-content: center;
+}
+
+.container-page * {
+   z-index: 10;
+}
+
+.container-title {
+   margin-top: 200px;
+   padding: 30px;
+   line-height: 1.2;
+   max-width: 475px;
+   text-align: center;
+}
+
+.container-references {
+   text-align: center;
+}
+
+.review {
+   display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+
+   margin: 30px 30px;
+   height: 150px;
+   width: 600px;
+   padding: 5px;
+   background-color: #fab54eab;
+   border-radius: 50px;
+   color: #272525;
+}
+
+.review p {
+   font-style: italic;
+}
+
+.bold-text {
+   font-weight: bold;
+}
+
+/* Contact */
+.entrance-contact {
+   background: url('../img/pexels-daria-shevtsova-880463.jpg') no-repeat center center/cover;
+   height: 100vh;
+   position: relative;
+   color: #ffffff;
+}
+
+.adress-1 {
+   background-color: #1a1813cb;
+   border-radius: 25px;
+   padding: 20px;
+   margin-top: 25px;
+}
+
+.adress-2 {
+   background-color: #3a3836ab;
+   border-radius: 25px;
+   padding: 5px;
+   margin-top: 25px;
+}
+
+.entrance-contact::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0,0,0,0.3);
+}
+
+.container-form {
+   background-color: #222020cb;
+   border-radius: 25px;
+   padding: 20px;
+   margin-top: 5px;
+   height: 420px;
+   width: 700px;
+}
+
+.container-form input {
+   width: 50%;
+   padding: 5px;
+   background-color: #d4d4d4;
+   border-radius: 15px;
+   font-family: 'Fredoka', sans-serif;
+   font-size: 16px;
+   padding-left: 5px;
+   margin-bottom: 10px;
+   padding-left: 12px;
+}
+
+select {
+   border:0;
+   background:solid;
+   background-color: #d4d4d4;
+   height:35px;
+   border:1px solid #d8d8d8;
+   width: 50%;
+   -webkit-appearance: none;
+   border-radius: 15px;
+}
+
+.three-options {
+   font-family: 'Fredoka', sans-serif;
+   font-size: 16px;
+   padding-left: 12px;
+}
+
+textarea {
+   width: 100%;
+   height: 150px;
+   padding: 12px 10px;
+   box-sizing: border-box;
+   border: 2px solid #ccc;
+   border-radius: 20px;
+   background-color: #d4d4d4;;
+   font-size: 16px;
+   font-family: 'Fredoka', sans-serif;
+   resize: none;
+   margin-bottom: 10px;
+ }
+
+ .letter {
+   font-family: 'Fredoka', sans-serif;
+   font-size: 16px;
+ }
+
+
+
